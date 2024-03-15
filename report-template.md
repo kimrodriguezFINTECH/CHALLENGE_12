@@ -61,7 +61,7 @@ The model generated an accuracy score of 99%.
 
 A lending company would want a model that requires classifying healthy loans and non-healthy loans correctly most of the time because healthy loans being identified as a non-healthy loan can cost the lending company a massive loss to the lenders and its customers.
 
-The Logistic Regression model fitted with OverSampled data performed much better than the model fitted with Imbalanced data due to the data being balanced and generating a higher accuracy score and a higher recall, indicating that the model will make extremely fewer mistakes when classifying non-healthy loans. However, a lending company would most likely want fewer False Positives due to the high possibility of a lender losing provided funds when classifying non-healthy loans as healthy. 
+The Logistic Regression model fitted with OverSampled data performed much better than the model fitted with Imbalanced data. This is because when the data is being balanced it generates a higher accuracy score and a higher recall. Overall this indicates that the model will make extremely fewer mistakes when classifying non-healthy loans. However, a lending company would most likely want fewer False Positives due to the high possibility of a lender losing provided funds when classifying non-healthy loans as healthy. 
 
 Imbalanced Data (Model):
 
