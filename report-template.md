@@ -41,6 +41,9 @@ The model generated an accuracy score of 95% but it could be improved.
 <img width="399" alt="Screenshot 2024-03-14 at 7 38 45 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_12/assets/152752672/faf8b0ad-8682-4b94-a611-c73c90da3514">
 
 
+
+
+
 * Machine Learning Model 2:
 
 The Logistic Regression model fitted with the OverSampled DataSet predicted healthy loans 100% of the time and predicted non-healthy loans 84% of the time.
