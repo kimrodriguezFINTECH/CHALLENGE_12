@@ -14,17 +14,55 @@ Using a machine learning model, I will determine which loans are healthy (low-ri
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+
+The Logistic Regression model fitted with the Imbalanced DataSet predicted healthy loans 100% of the time and predicted non-healthy loans 85% of the time.
+
+
+The model fitted with imbalanced data has a higher possibility of making these mistakes:
+
+a healthy loan (low-risk) is classified as a non-healthy loan (high-risk).
+a non-healthy loan (high-risk) is classified as a healthy loan (low-risk).
+
+According to the models recall scores, the model made 1% of mistakes when predicting healthy loans and made 9% of mistakes when predicted non-healthy loans.
 
 
 
 * Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
+
+The Logistic Regression model fitted with the OverSampled DataSet predicted healthy loans 100% of the time and predicted non-healthy loans 84% of the time.
+
+
+The model fitted with balanced (oversampled) data has a much lower possibility of making these mistakes:
+
+a healthy loan (low-risk) is classified as a non-healthy loan (high-risk).
+a non-healthy loan (high-risk) is classified as a healthy loan (low-risk).
+
+According to the models recall scores, the model made 1% of mistakes when predicting healthy loans and made 1% of mistakes when predicted non-healthy loans.
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+A lending company might want a model that requires classifying healthy loans and non-healthy loans correctly most of the time:
 
-If you do not recommend any of the models, please justify your reasoning.
+healthy loans being identified as a non-healthy loan might be more costly for a lending company since it might cause the loss of customers.
+
+non-healthy loans being identified as a healthy loan might also be more costly for a lending company due to the loss of funds being provided by the lender.
+
+The Logistic Regression model fitted with OverSampled data performed much better than the model fitted with Imbalanced data due to the data being balanced and generating a higher accuracy score and a higher recall, indicating that the model will make extremely fewer mistakes when classifying non-healthy loans.
+
+
+The lending company would most likely want fewer False Positives due to the high possibility of a lender loosing provided funds when classifying non-healthy loans as healthy. The data below is shown in the confusion matrices which indicates how many healthy/non-healthy loans the model predicted correctly/incorrectly.
+
+Model fitted with Imbalanced Data:
+
+56 (FALSE POSITIVES) --> The actual value is healthy and the predicted value is non-healthy
+
+102 (FALSE NEGATIVES) --> The actual value is non-healthy and the predicted value is healthy
+
+
+Model fitted with Balanced Data:
+
+4 (FALSE POSITIVES) --> The actual value is healthy and the predicted value is non-healthy
+
+116 (FALSE NEGATIVES) --> The actual value is non-healthy and the predicted value is healthy
+
+According to the confusion matrices, the number of False Postives drastically decreases indicating the model will classify healthy & non-healthy loans correctly. Based off of this analysis, I would recommend using Model 2 (Logistic Regression Model fitted with Balanced (oversampled) data.
