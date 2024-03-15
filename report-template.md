@@ -36,6 +36,10 @@ According to the models recall scores, the model made 1% of mistakes when predic
 
 The model generated an accuracy score of 95% but it could be improved. 
 
+<img width="665" alt="Screenshot 2024-03-14 at 7 36 20 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_12/assets/152752672/d5a2da39-5f07-42a4-a6f4-104d1c4e4f2d">
+
+<img width="399" alt="Screenshot 2024-03-14 at 7 38 45 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_12/assets/152752672/faf8b0ad-8682-4b94-a611-c73c90da3514">
+
 
 * Machine Learning Model 2:
 
@@ -44,6 +48,11 @@ The Logistic Regression model fitted with the OverSampled DataSet predicted heal
 According to the models recall scores, the model made 1% of mistakes when predicting healthy loans and made 1% of mistakes when predicted non-healthy loans.
 
 The model generated an accuracy score of 99%. 
+
+<img width="661" alt="Screenshot 2024-03-14 at 7 40 06 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_12/assets/152752672/9595600b-3b44-43c9-a3c6-09b3b81b7e24">
+
+<img width="430" alt="Screenshot 2024-03-14 at 7 40 01 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_12/assets/152752672/4230fa6b-9a64-48e4-9cc1-1a75618602d8">
+
 
 ## Summary
 
