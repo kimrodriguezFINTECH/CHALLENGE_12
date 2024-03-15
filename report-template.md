@@ -77,3 +77,15 @@ Balanced Data (Model):
 116 (FALSE NEGATIVES): The actual value is non-healthy and the predicted value is healthy
 
 Based off of this analysis, I would recommend using Model 2 (Logistic Regression Model fitted with Balanced (oversampled) data.
+
+## Resources
+Tutor Meetings through FINTECH Bootcamp:
+TA: Shahriar Shochi
+Thursday 3/14/2024
+
+Tutor Meetings External Resources:
+Edward R.
+Website: https://www.edwardrees.info
+Sunday 3/10/2024
+Thursday 3/14/2024
+
