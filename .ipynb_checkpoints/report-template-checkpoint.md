@@ -4,10 +4,11 @@
 
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
-Lending companies lend money or properties to borrowers with the expectation that the borrower will either return the asset or repay the lender. Credit Risk is the risk the lender is taking when the borrower might not return the asset or repay the loan back.In this analysis we will use Machine Learning to measure credit risk by analyziing a dataset of historical lending activity to build a model that can identify which borrowers are the best candidates. 
-
-Using a machine learning model, I will determine which loans are healthy (low-risk) or non-healthy (high-risk) based on the loan status provided by the lending company. Which is why the Logistic Regression Algorithm is the best tool to use for our model since it is widely used to predict the probability of a target variable in classification problems.
-
+* Explain the purpose of the analysis.
+* Explain what financial information the data was on, and what you needed to predict.
+* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
+* Describe the stages of the machine learning process you went through as part of this analysis.
+* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 
 ## Results
 
