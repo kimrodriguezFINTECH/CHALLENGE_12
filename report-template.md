@@ -12,7 +12,8 @@ Out of the 18,765 loan status's that are healthy (low-risk), the model predicted
 
 Out of the 619 loan status's that are non-healthy (high-risk), the model predicted 563 as non-healthy correctly and 56 that is non-healthy incorrectly.
 
-PICTURE LINE 11
+<img width="989" alt="Screenshot 2024-03-14 at 7 29 56 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_12/assets/152752672/4aee6a5e-4a69-470c-a780-e42d0e07fee2">
+
 
 According to the confusion matrix in step 3 "Generate a confusion matrix for the model with Resampled(oversampled) Data":
 
@@ -20,7 +21,8 @@ Out of the 18,765 loan status's that are healthy, the model predicted 18,649 as 
 
 Out of the 619 loan status's that are non-healthy (high-risk), the model predicted 615 as non-healthy correctly and 4 as non-healthy incorrectly.
 
-PICTURE LINE 17
+<img width="994" alt="Screenshot 2024-03-14 at 7 30 16 PM" src="https://github.com/kimrodriguezFINTECH/CHALLENGE_12/assets/152752672/74850eb7-e7de-4dff-9b9f-5e0031a812f0">
+
 
 ## Results
 
